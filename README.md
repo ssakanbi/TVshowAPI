@@ -3,7 +3,7 @@
 Returns popular TV shows and details about them
 Python
 =======
-Returns popular TV shows and details about them. Returns json and also html depending on url in the the request statement.
+API for popular TV shows and details about them. Returns json and also html depending on url in the the request statement.
 data is returned from a database hosted on a cassandra kurbenetes cluster of 3 nodes and also from external API https://www.tvmaze.com/api
 
 Cassandra and Kurbenetes
@@ -16,7 +16,7 @@ A google cloud platform account is required at (https://cloud.google.com).
 Python, flask, several libraries shown in imports in the code. docker image . knowledge of Kurbenetes cli
 
 We created a Kurbenetes cluster
-of 3 nodes using the Kurbenetes cli in the interactive google shell terminal.
+of three nodes using the Kurbenetes cli in the interactive google shell terminal.
 
 Steps
 1  Build our docker image 
